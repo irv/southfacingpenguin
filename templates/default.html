@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>south facing penguin $title$</title>
+  <meta name="description" content="$teaser$">
+  <meta name="viewport" content=
+  "width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary"/>
+  <meta property="og:url" content="$hostname$$url$" />
+  <meta property="og:title" content="$title$" />
+  <meta property="og:description" content="$teaser$" />
+  <link rel="stylesheet" href="/css/furtive.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link href=
+  "https://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat"
+  rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body class="p1 txt--center">
+  <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+  <header class="p1">
+    <h1 class="p1">south facing penguin</h1>
+    <p>thoughtful books reviews</p>
+    <nav>
+      <ul class="list--unstyled">
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/about/">About</a>
+        </li>
+        <li>
+          <a href="/contact/">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div id="content" class="grd p0 txt--left">
+    <div class="grd-row">
+      <div class="grd-row-col-4-6--lg">
+        <section id="main">
+          $body$
+          $if(numPages)$
+          $partial("templates/paginate.html")$
+          $endif$
+       </section>
+     </div>
+      <div class="grd-row-col-2-6--sm">
+        <aside id="side" class="p1">
+          <div id="archive">
+            <h1 class="p1">Reviews Archive</h1>
+            <nav>
+              <ul class="list--unstyled">
+                $archives$
+              </ul>
+            </nav>
+            <h1 class="p1">Tweets</h1>
+            <a class="twitter-timeline"
+            href="https://twitter.com/southfacingpeng" data-chrome=
+            "transparent noheader noscrollbar" data-tweet-limit="5">Tweets by
+            southfacingpeng</a> 
+            <script async src=
+            "https://platform.twitter.com/widgets.js" charset=
+            "utf-8">
+            </script>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+  <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-97417064-1','auto');ga('send','pageview');
+  </script>
+</body>
+</html>

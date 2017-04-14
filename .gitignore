@@ -1,0 +1,12 @@
+dist
+cabal-dev
+*.o
+*.hi
+*.chi
+*.chs.h
+_site
+_cache
+*.*~
+src/site
+.todo
+.sass-cache
